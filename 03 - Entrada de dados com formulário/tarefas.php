@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerenciador de tarefas</title>
+    <link rel="stylesheet" href="_css/estilo.css">
 </head>
 <body>
     <h1>Gerenciador de tarefas</h1>
@@ -29,7 +30,7 @@
 
         if (isset($_GET['nome']))
         { // Verifica se existe o índice 'nome' dentro de $_GET
-            $_SESSION['lista_tarefas'][] = $_GET['nome']; // $_SESSION serve para escrever e ler  informações e mantér os dados
+            $_SESSION['lista_tarefas'][] = $_GET['nome']; // $_SESSION serve para escrever e ler informações e manter os dados
         }
 
         $lista_tarefas = array();
