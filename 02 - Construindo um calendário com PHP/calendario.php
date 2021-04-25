@@ -22,7 +22,7 @@
                         }
                     }
                 
-                    echo "</tr>";   
+                echo "</tr>";   
             }
 
             function calendario()
